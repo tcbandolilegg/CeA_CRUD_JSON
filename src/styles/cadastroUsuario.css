@@ -1,0 +1,48 @@
+.campo {
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  padding: 40px;
+  height: 600px;
+  text-align: center;
+  border: solid 3px var(--dark_orange);
+}
+
+.campo ul li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.campo ul p {
+  width: 150px;
+  text-align: right;
+  margin-right: 16px;
+  font-size: x-large;
+}
+
+.campo h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.campo ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo input {
+  width: 400px;
+  font-size: x-large;
+}
+
+.divBotao {
+  display: flex;
+  justify-content: center;
+}
+
+.inputCadastro {
+  height: 45px;
+}

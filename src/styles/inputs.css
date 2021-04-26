@@ -1,0 +1,12 @@
+.inputLogin {
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  font-size: var(--font_input);
+  color: var(--blue1);
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 10px;
+}

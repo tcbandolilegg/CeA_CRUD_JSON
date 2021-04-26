@@ -1,0 +1,21 @@
+:root {
+  --blue1:#2D509F;
+  --blue2:#119FDD;
+  --blue3:#91D8F7;
+  --blue4:#C2E8FB;
+  --black1:#373435;
+  --black2:#727376;
+  --black3:#9A9A9a;
+  --black4:#D2D3d5;
+  --red1:#94322b;
+  --red2:#B53E36;
+  --red3:#F74F43;
+  --red4:#Fa9891;
+  
+  --font_titulo: 40px;
+  --font_corpo:25px;
+  --font_descricao:14px
+  --font_rotulo: 12px;
+  --font_input: 24px;
+}
+

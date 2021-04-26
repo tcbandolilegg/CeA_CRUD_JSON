@@ -1,0 +1,53 @@
+.botoes {
+  min-width: 250px;
+  align-items: center;
+  justify-content: space-around;
+
+  display: flex;
+}
+
+.botaoLaranja {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid var(--blue1);
+  color: var(--blue1);
+  height: auto;
+  min-width: 250px;
+  margin-top: 15px;
+  align-self: center;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.botaoLaranja:hover {
+  background-color: var(--blue1);
+  color: white;
+  cursor: pointer;
+}
+
+#login,
+#btlogin {
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--blue1);
+}
+
+nav button:hover {
+  background-color: var(--red1);
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--red1);
+}
+nav button a:hover {
+  background-color: var(--red1);
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--red1);
+}

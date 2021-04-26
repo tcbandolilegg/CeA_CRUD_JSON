@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="/frontEnd/src/styles/reset.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/index.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/var_ambiente.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/nav.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/index.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/buttons.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/forms.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/inputs.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/footer.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/cadastroUsuario.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/perfil.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script src="/backEnd/src/modal/dataUsers.js" defer></script> -->
+    <script src="/frontEnd/js/login.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <a id="logo" href="/FrontEnd/index.html">
+        <img
+          src="/frontEnd/src/assets/logos/marca_horizontal_TC_b.png"
+          alt="desenvolvedor"
+        />
+      </a>
+      <a href="#quemSomos">QUEM SOMOS</a>
+      <a href="#parcerias">PARCERIAS</a>
+      <a href="#faleConosco">FALE CONOSCO</a>
+    </nav>
+    <section>
+      <div>
+        <br />
+        <h1>A P I - C & A</h1>
+      </div>
+      <div class="centraliza">
+        <div class="logoCea">
+          <img
+            src="/frontEnd/src/assets/logos/cea_transparente.png"
+            alt="logo CeA"
+          />
+        </div>
+
+        <div class="ebook">
+          <div class="ebookCab">
+            <br />
+            <p>Entre com seus dados</p>
+            <br />
+          </div>
+          <br />
+          <br />
+
+          <input
+            class="inputLogin"
+            id="userLogin"
+            placeholder="usuario"
+            type="text"
+          />
+          <br /><br />
+          <input
+            class="inputLogin"
+            id="senhaLogin"
+            placeholder="senha"
+            type="text"
+          />
+          <br /><br /><br /><br />
+
+          <div class="botoes">
+            <!-- <a href="/frontEnd/pages/perfil.html" target="_parent"> -->
+            <!-- Precisa validar -->
+            <button class="botaoLaranja" id="botaoLogin">acessar</button>
+            <!-- </a> -->
+          </div>
+
+          <div class="botoes">
+            <a href="/frontEnd/pages/esqueciSenha.html" target="_parent">
+              <button class="botaoLaranja" id="botaoEsquecisenha">
+                esqueci a senha
+              </button>
+            </a>
+          </div>
+          <div class="botoes">
+            <a href="/frontEnd/pages/cadastroUsuario.html" target="_parent">
+              <button class="botaoLaranja" id="botaoNaoTenhoLogin">
+                não possuo cadastro
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="faleConosco">
+      <div class="contato">
+        <p class="ajudaSuporte">AJUDA E SUPORTE</p>
+      </div>
+      <div class="redesSociais">
+        <a
+          class="redesSociais"
+          href="https://www.linkedin.com/in/thereza-cristina-bandoli-legg/"
+        >
+          <img src="/frontEnd/src/assets/logos/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a class="redesSociais" href="https://wa.me/5522988399390">
+          <img src="/frontEnd/src/assets/logos/whatsapp.png" alt="Whatsapp" />
+        </a>
+        <a
+          class="redesSociais"
+          href="mailto:tecbandolilegg@gmail.com?subject=Quero%20saber%20mais"
+        >
+          <img src="/frontEnd/src/assets/logos/email.png" alt="Email" />
+        </a>
+      </div>
+      <div class="termoServico">
+        <a style="color: var(--blue1)" href="/pages/TUS.pdf" target="_blank"
+          >Termo de Serviço</a
+        >
+      </div>
+    </footer>
+
+    <footer style="justify-content: center; padding: 5px" id="license">
+      <p>
+        Copyright 2021 Desenvolvimento e Desing UX/UI Thereza Cristina Bandoli
+        Legg
+      </p>
+      <a
+        class="redesSociaisRodape"
+        href="https://github.com/tcbandolilegg/API_CeA"
+      >
+        <img src="/frontEnd/src/assets/logos/gitHub.png" alt="GitHub" />
+      </a>
+    </footer>
+  </body>
+</html>

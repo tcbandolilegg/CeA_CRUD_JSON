@@ -1,0 +1,88 @@
+footer {
+  font-size: 15px;
+  display: flex;
+  background-color: var(--blue1);
+  color: white;
+  height: auto;
+  align-items: center;
+}
+
+#license {
+  align-items: center;
+  text-align: center;
+  height: auto;
+}
+
+#faleConosco {
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  background-color: var(--dark_orange);
+  color: var(--ligth_yellow);
+  height: auto;
+  justify-content: space-around;
+  align-items: initial;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.redesSociais img {
+  margin-top: 5px;
+  margin-right: 20px;
+  height: 50px;
+}
+
+.redesSociaisRodape img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.redesSociaisRodape a {
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.logosAceleradoras img:hover,
+.logosParceiros img:hover,
+.redesSociais img:hover,
+.redesSociaisRodape img:hover {
+  cursor: pointer;
+}
+
+.logosAceleradoras img,
+.logosParceiros img,
+.redesSociais img,
+.redesSociaisRodape img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+img:hover {
+  cursor: pointer;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 50px;
+  font-size: 25px;
+  justify-content: space-around;
+}
+.termoServico {
+  font-size: x-large;
+  font-weight: bold;
+  align-items: center;
+  align-self: center;
+}

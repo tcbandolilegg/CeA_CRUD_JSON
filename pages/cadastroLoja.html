@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/frontEnd/src/styles/reset.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/index.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/var_ambiente.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/nav.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/index.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/buttons.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/forms.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/inputs.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/footer.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/cadastroUsuario.css" />
+    <link rel="stylesheet" href="/frontend/src/styles/perfil.css" />
+    <script src="/FrontEnd/src/js/cadastroloja.js" defer></script>
+    <title>Sistema de inclusão de lojas CeA</title>
+  </head>
+  <body>
+    <nav>
+      <a id="logo" href="/FrontEnd/index.html">
+        <img
+          src="/frontEnd/src/assets/logos/marca_horizontal_TC_b.png"
+          alt="desenvolvedor"
+        />
+      </a>
+      <a href="#quemSomos">QUEM SOMOS</a>
+      <a href="#parcerias">PARCERIAS</a>
+      <a href="#faleConosco">FALE CONOSCO</a>
+    </nav>
+    <section>
+      <h1>API CeA ZENVIA</h1>
+      <h3>
+        Interface grafica para inclusão de lojas para o georeferenciamento da
+      </h3>
+      <div class="areaForm">
+        <form name="meu_form">
+          <h2>Cadastramento de Lojas</h2>
+          <div numeracao>
+            <label for="nome">Sigla</label>
+            <input
+              type="text"
+              id="sigla"
+              style="width: 50px"
+              placeholder="SPC"
+              required="required"
+              name="nome"
+            />
+            <label for="numero">Numero</label>
+
+            <input
+              type="number"
+              id="numero"
+              style="width: 50px"
+              placeholder="3570"
+              name="numero"
+            />
+
+            <label for="deptoId">Número do departamento</label>
+            <input
+              type="number"
+              id="deptoIn"
+              placeholder="21834"
+              name="deptoId"
+              style="width: 50px"
+            />
+          </div>
+          <label for="loja">Loja</label>
+          <input
+            type="text"
+            id="loja"
+            placeholder="SHOPPING CATUAÍ PALLADIUM"
+            name="loja"
+          />
+
+          <label for="loja">Cep</label>
+
+          <input
+            type="cep"
+            id="cep"
+            placeholder="85853-000"
+            style="width: 100px"
+            name="cep"
+          />
+
+          <label for="endereco">Endereço</label>
+          <input
+            type="text"
+            id="endereco"
+            placeholder="Av. das Cataratas, 3570 - Vila Yolanda, Foz do Iguaçu - PR,LOJA ANCORA PISO L1. CEP: 85853-000"
+            name="cep"
+          />
+          <div class="georeferenciamento">
+            <label for="latitude">Latitude</label>
+            <input
+              type="number"
+              id="latitude"
+              placeholder=""
+              style="width: 200px"
+              name="latitude"
+            />
+
+            <label for="longitude">Longitude</label>
+            <input
+              type="number"
+              id="longitude"
+              placeholder=""
+              style="width: 200px"
+              name="longitude"
+            />
+          </div>
+          <input
+            type="submit"
+            class="enviar"
+            onclick="Enviar();"
+            value="Enviar"
+          />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
